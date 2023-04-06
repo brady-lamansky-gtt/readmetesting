@@ -59,18 +59,20 @@ How to setup Wordpress credentials to authenticate API
 ## Local
 
 This is an example of how you may give instructions on setting up your project locally.
-To get a local copy up and running follow these simple example steps.
-Create necessary requirements by following the Requirements listed earlier in the README file.
-Ensure your credentials.json filepath is accessible.
-Run securityNinja.py
+
+To get a local copy up and running follow these simple example steps:
+- Create necessary requirements by following the Requirements listed earlier in the README file.
+- Ensure your credentials.json filepath is accessible.
+- Run securityNinja.py
 
 ## Production
 
 This is an example of how you may give instructions on setting up your project on production.
-To get a production copy up and running follow these simple example steps.
-Create necessary requirements by following the Requirements listed earlier in the README file.
-Store Google sheet, Google service account, and Mailgun requirements securely in production environment.
-Ensure your credentials.json filepath is accessible.
-Run securityNinja.py
+
+To get a production copy up and running follow these simple example steps:
+- Create necessary requirements by following the Requirements listed earlier in the README file.
+- Store Google sheet, Google service account, and Mailgun requirements securely in production environment.
+- Ensure your credentials.json filepath is accessible.
+- Run securityNinja.py
 
 https://github.com/Global-Tech-Team/SecurityNinja
