@@ -55,12 +55,12 @@ SecurityNinja is a python-based web scraping tool used to evaluate the security 
    MAILGUN_EMAIL_ENDPOINT =
    ```
 
-### Local
+## Local
 
 This is an example of how you may give instructions on setting up your project locally.
 To get a local copy up and running follow these simple example steps.
 
-### Production
+## Production
 
 This is an example of how you may give instructions on setting up your project on production.
 To get a production copy up and running follow these simple example steps.
