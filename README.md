@@ -69,3 +69,4 @@ To get a production copy up and running follow these simple example steps.
 ## Wordpress Setup
 
 How to setup Wordpress credentials to authenticate API
+- Wordpress API Key on Google Form submission rather than password
