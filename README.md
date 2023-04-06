@@ -26,7 +26,7 @@ SecurityNinja is a python-based web scraping tool used to evaluate the security 
 
 ### Google Sheet
 
-   Variables:
+   Variable(s):
    ```sh
    SHEET_ID = ID_of_google_sheet (from the url of the doc)
    SHEET_NAME = name_of_sheet_to_use (name of individual sheet)
@@ -45,13 +45,13 @@ SecurityNinja is a python-based web scraping tool used to evaluate the security 
 
    Share your Google Sheet with the service account
    
-   Variables:
+   Variable(s):
    ```sh
    GOOGLE_APPLICATION_CREDENTIALS = filepath_to_credentials.json
    ```
 ### Mailgun
 
-   Variables:
+   Variable(s):
    ```sh
    API_KEY =
    MAILGUN_EMAIL =
