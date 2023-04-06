@@ -26,7 +26,7 @@ An app that checks Wordpress plugin versions and sends notifications if you need
 
 ## About The Project
 
-SecurityNinja is a python-based web scraping tool used to evaluate the security of a Wordpress website. The project parses through a Google Sheet containing entries that have a url, username, and key to scan the website. Results are then emailed to the user, informing them of plugins that need to be updated.
+SecurityNinja is a python-based web scraping tool used to evaluate the security of a Wordpress website. The project parses through a Google Sheet containing entries that have a url, username, and key to scan the website. Results are then emailed to the user connected to the Wordpress website, informing them of plugins that need to be updated.
 
 ## Requirements
 
@@ -39,7 +39,7 @@ SecurityNinja is a python-based web scraping tool used to evaluate the security 
    ```sh
    Create a Google service account
    - download the credentials.json file
-   - share your document with the account
+   - share your Google Sheet with the service account
    ```
 3. Mailgun
    ```sh
