@@ -34,6 +34,7 @@ SecurityNinja is a python-based web scraping tool used to evaluate the security 
    ```sh
    SHEET_ID = ID_of_google_sheet (from the url of the doc)
    SHEET_NAME = name_of_sheet_to_use (name of individual sheet)
+   GOOGLE_APPLICATION_CREDENTIALS = filepath_to_credentials.json (from service account)
    ```
 2. Google service account
    ```sh
