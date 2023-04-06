@@ -32,18 +32,27 @@ SecurityNinja is a python-based web scraping tool used to evaluate the security 
 
 1. Google sheet
    ```sh
-   SHEET_ID = ID_of_your_google_sheet (from the url of the doc)
+   SHEET_ID = ID_of_google_sheet (from the url of the doc)
    SHEET_NAME = name_of_sheet_to_use (name of individual sheet)
    ```
 2. Google service account
    ```sh
-   Create a Google service account
-   - download the credentials.json file
-   - share your Google Sheet with the service account
+   Create a Google service account on console.cloud.google.com
+   - Select APIs & Services from the navigation menu
+   - Select Credentials
+   - Create Credentials -> Service account
+   Download the credentials.json file
+   - Select IAM & Admin from the navigation menu
+   - Select Service Accounts
+   - Click on your service account
+   - Under Keys, Add Key, Create new key, JSON
+   Share your Google Sheet with the service account
    ```
 3. Mailgun
    ```sh
-   test
+   API_KEY =
+   MAILGUN_EMAIL =
+   MAILGUN_EMAIL_ENDPOINT =
    ```
 
 ### Local
@@ -53,13 +62,9 @@ To get a local copy up and running follow these simple example steps.
 
 ### Production
 
-This is an example of how to list things you need to use the software and how to install them.
-* npm
-  ```sh
-  npm install npm@latest -g
-  ```
+This is an example of how you may give instructions on setting up your project on production.
+To get a production copy up and running follow these simple example steps.
 
-<!-- USAGE EXAMPLES -->
 ## Usage
 
 Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
