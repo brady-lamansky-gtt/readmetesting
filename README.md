@@ -42,7 +42,7 @@ SecurityNinja is a python-based web scraping tool used to evaluate the security 
 
    Share your Google Sheet with the service account
    ```sh
-   GOOGLE_APPLICATION_CREDENTIALS = filepath_to_credentials.json (from service account)
+   GOOGLE_APPLICATION_CREDENTIALS = filepath_to_credentials.json
    ```
 ### 3. Mailgun
    ```sh
