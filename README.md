@@ -29,16 +29,16 @@ SecurityNinja is a python-based web scraping tool used to evaluate the security 
    SHEET_NAME = name_of_sheet_to_use (name of individual sheet)
    ```
 2. Google Service Account
-   - Create a Google service account on console.cloud.google.com
-   -- Select APIs & Services from the navigation menu
-   -- Select Credentials
-   -- Create Credentials -> Service account
-   -Download the credentials.json file
-   -- Select IAM & Admin from the navigation menu
-   -- Select Service Accounts
-   -- Click on your service account
-   -- Under Keys, Add Key, Create new key, JSON
-   -Share your Google Sheet with the service account
+   Create a Google service account on console.cloud.google.com
+   - Select APIs & Services from the navigation menu
+   - Select Credentials
+   - Create Credentials -> Service account
+   Download the credentials.json file
+   - Select IAM & Admin from the navigation menu
+   - Select Service Accounts
+   - Click on your service account
+   - Under Keys, Add Key, Create new key, JSON
+   Share your Google Sheet with the service account
    ```sh
    GOOGLE_APPLICATION_CREDENTIALS = filepath_to_credentials.json (from service account)
    ```
