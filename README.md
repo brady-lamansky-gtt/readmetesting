@@ -6,13 +6,9 @@ An app that checks a Wordpress website for plugin versions, notifying the owner 
   <summary>Table of Contents</summary>
   <ol>
     <li><a href="#about-the-project">About The Project</a></li>
-    <li>
-      <a href="#requirements">Requirements</a>
-      <ul>
-        <li><a href="#local">Local</a></li>
-        <li><a href="#production">Production</a></li>
-      </ul>
-    </li>
+    <li><a href="#requirements">Requirements</a></li>
+    <li><a href="#local">Local</a></li>
+    <li><a href="#production">Production</a></li>
     <li><a href="#wordpress-setup">Wordpress Setup</a></li>
   </ol>
 </details>
