@@ -1,5 +1,7 @@
 # SecurityNinja
 
+An app that checks a Wordpress website for plugin versions, notifying the owner if updates are needed.
+
 <details>
   <summary>Table of Contents</summary>
   <ol>
