@@ -5,9 +5,7 @@ An app that checks a Wordpress website for plugin versions, notifying the owner 
 <details>
   <summary>Table of Contents</summary>
   <ol>
-    <li>
-      <a href="#about-the-project">About The Project</a>
-    </li>
+    <li><a href="#about-the-project">About The Project</a></li>
     <li>
       <a href="#requirements">Requirements</a>
       <ul>
@@ -65,3 +63,5 @@ To get a production copy up and running follow these simple example steps.
 
 How to setup Wordpress credentials to authenticate API
 - Wordpress API Key on Google Form submission rather than password
+
+https://github.com/Global-Tech-Team/SecurityNinja
