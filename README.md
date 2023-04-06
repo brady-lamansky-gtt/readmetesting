@@ -46,6 +46,10 @@ SecurityNinja is a python-based web scraping tool used to evaluate the security 
    MAILGUN_EMAIL =
    MAILGUN_EMAIL_ENDPOINT =
    ```
+### 4. Wordpress Setup
+
+How to setup Wordpress credentials to authenticate API
+- Wordpress API Key on Google Form submission rather than password
 
 ## Local
 
@@ -63,10 +67,5 @@ Create necessary requirements by following the Requirements listed earlier in th
 Store Google sheet, Google service account, and Mailgun requirements securely in production environment.
 Ensure your credentials.json filepath is accessible.
 Run securityNinja.py
-
-## Wordpress Setup
-
-How to setup Wordpress credentials to authenticate API
-- Wordpress API Key on Google Form submission rather than password
 
 https://github.com/Global-Tech-Team/SecurityNinja
