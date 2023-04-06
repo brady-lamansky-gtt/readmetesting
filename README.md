@@ -7,9 +7,14 @@ An app that checks a Wordpress website for plugin versions, notifying the owner 
   <ol>
     <li><a href="#about-the-project">About The Project</a></li>
     <li><a href="#requirements">Requirements</a></li>
+      <ul>
+        <li><a href="#google-sheet">Google Sheet</a></li>
+        <li><a href="#google-service-account">Google Service Account</a></li>
+        <li><a href="#mailgun">Mailgun</a></li>
+        <li><a href="#wordpress-setup">Wordpress Setup</a></li>
+      </ul>
     <li><a href="#local">Local</a></li>
     <li><a href="#production">Production</a></li>
-    <li><a href="#wordpress-setup">Wordpress Setup</a></li>
   </ol>
 </details>
 
