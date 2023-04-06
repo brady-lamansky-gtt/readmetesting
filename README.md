@@ -23,12 +23,12 @@ SecurityNinja is a python-based web scraping tool used to evaluate the security 
 
 ## Requirements
 
-1. Google Sheet
+### 1. Google Sheet
    ```sh
    SHEET_ID = ID_of_google_sheet (from the url of the doc)
    SHEET_NAME = name_of_sheet_to_use (name of individual sheet)
    ```
-2. Google Service Account
+### 2. Google Service Account
    Create a Google service account on console.cloud.google.com
    - Select APIs & Services from the navigation menu
    - Select Credentials
@@ -42,7 +42,7 @@ SecurityNinja is a python-based web scraping tool used to evaluate the security 
    ```sh
    GOOGLE_APPLICATION_CREDENTIALS = filepath_to_credentials.json (from service account)
    ```
-3. Mailgun
+### 3. Mailgun
    ```sh
    API_KEY =
    MAILGUN_EMAIL =
