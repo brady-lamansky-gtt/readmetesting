@@ -28,8 +28,8 @@ SecurityNinja is a python-based web scraping tool used to evaluate the security 
 
    Variable(s):
    ```sh
-   SHEET_ID = ID_of_google_sheet (from the url of the doc)
-   SHEET_NAME = name_of_sheet_to_use (name of individual sheet)
+   SHEET_ID = ID_of_google_sheet #from the url of the doc
+   SHEET_NAME = name_of_sheet_to_use #name of individual sheet
    ```
 ### Google Service Account
    Create a Google service account on console.cloud.google.com
