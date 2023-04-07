@@ -48,7 +48,7 @@ SecurityNinja is a python-based web scraping tool used to evaluate the security 
    
    Variable(s):
    ```sh
-   GOOGLE_APPLICATION_CREDENTIALS = filepath_to_credentials.json
+   GOOGLE_APPLICATION_CREDENTIALS = credentials.json #path to credentials.json file
    ```
 ### Mailgun
 
