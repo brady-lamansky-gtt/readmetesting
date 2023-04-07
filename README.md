@@ -64,7 +64,7 @@ Log in to your WordPress site with an admin user account
 - Under the **Users** dropdown select **Profile**
 - Scroll down to **Application Passwords**
 - Enter a name in the **Add New Application Password** textbox and click **Add New**
-- Save your Application Password and use it in submissions on the Google Form
+- Save your Application Password and use it in submissions on the SecurityNinja Google Form
 
 ## Local
 
