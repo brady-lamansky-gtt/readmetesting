@@ -54,11 +54,9 @@ SecurityNinja is a python-based web scraping tool used to evaluate the security 
 
    Variable(s):
    ```sh
-   private_API_key = #from your mailgun account, under your profile select API Keys
-   your_domain_name = #from Domains under the Sending dropdown
-   API_KEY = private_API_key
-   MAILGUN_EMAIL = <mailgun@your_domain_name>
-   MAILGUN_EMAIL_ENDPOINT = https://api.mailgun.net/v3/your_domain_name/messages
+   API_KEY = private_API_key #from your mailgun account, under your profile select API Keys
+   MAILGUN_EMAIL = <mailgun@your_domain_name> #your_domain_name from Domains under the Sending dropdown
+   MAILGUN_EMAIL_ENDPOINT = https://api.mailgun.net/v3/your_domain_name/messages #your_domain_name from Domains under the Sending dropdown
    ```
 ### Wordpress Setup
 
