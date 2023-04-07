@@ -39,7 +39,7 @@ SecurityNinja is a python-based web scraping tool used to evaluate the security 
 
    Download the credentials.json file
    - Select **IAM & Admin** from the navigation menu
-   - Select **Service Accounts**
+   - Select **Service Accounts** #need to create a Google Cloud project to create a Service Account
    - Click on your service account
    - Navigate to the **KEYS** heading
    - From the **ADD KEY** dropdown select **Create new key**, and check **JSON**
