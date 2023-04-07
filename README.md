@@ -41,7 +41,7 @@ SecurityNinja is a python-based web scraping tool used to evaluate the security 
    - Select **Service Accounts**
    - Click **CREATE SERVICE ACCOUNT** at the top of the page
 
-   Download the credentials.json file
+   Download the credentials.json file for your service account
    - Select **IAM & Admin** from the navigation menu
    - Select **Service Accounts**
    - Click on your service account
