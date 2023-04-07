@@ -60,8 +60,11 @@ SecurityNinja is a python-based web scraping tool used to evaluate the security 
    ```
 ### Wordpress Setup
 
-How to setup Wordpress credentials to authenticate API
-- Wordpress API Key on Google Form submission rather than password
+Log in to your WordPress site with an admin user account
+- Under the **Users** dropdown select **Profile**
+- Scroll down to **Application Passwords**
+- Enter a name in the **Add New Application Password** textbox and click **Add New**
+- Save your Application Password and use it in submissions on the Google Form
 
 ## Local
 
