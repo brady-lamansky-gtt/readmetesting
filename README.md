@@ -20,11 +20,17 @@ An app that checks a Wordpress website for plugin versions, notifying the owner 
 
 ## About The Project
 
-SecurityNinja is a python-based web scraping tool used to evaluate the security of a Wordpress website. The project parses through a Google Sheet containing entries that have a url, username, and key to scan the website. Results are then emailed to the user connected to the Wordpress website, informing them of plugins that need to be updated.
+SecurityNinja is a python-based web scraping tool used to evaluate the security of a Wordpress website. The project parses through a Google Sheet containing entries that have a url, username, and key to scan the website. A list of plugins that need to be updated is generated and then sent to the corresponding email on the Google Sheet.
 
 ## Requirements
 
 ### Google Sheet
+   Create a Google Sheet with the following columns of data:
+   - website url
+   - username
+   - application password
+   - Email Address
+   - LastChecked (default to 0)
 
    Variable(s):
    ```sh
@@ -55,6 +61,7 @@ SecurityNinja is a python-based web scraping tool used to evaluate the security 
    GOOGLE_APPLICATION_CREDENTIALS = credentials.json #path to credentials.json file
    ```
 ### Mailgun
+   Create a free account at signup.mailgun.com
 
    Variable(s):
    ```sh
@@ -68,11 +75,9 @@ Log in to your WordPress site with an admin user account
 - Under the **Users** dropdown select **Profile**
 - Scroll down to **Application Passwords**
 - Enter a name in the **Add New Application Password** textbox and click **Add New**
-- Save your Application Password and use it in submissions on the SecurityNinja Google Form
+- Save your Application Password and use it in submissions for the Google Sheet
 
 ## Local
-
-This is an example of how you may give instructions on setting up your project locally.
 
 To get a local copy up and running follow these simple example steps:
 - Create necessary requirements by following the <a href="#requirements">Requirements</a>
@@ -80,8 +85,6 @@ To get a local copy up and running follow these simple example steps:
 - Run ```securityNinja.py```
 
 ## Production
-
-This is an example of how you may give instructions on setting up your project on production.
 
 To get a production copy up and running follow these simple example steps:
 - Create necessary requirements by following the <a href="#requirements">Requirements</a>
