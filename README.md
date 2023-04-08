@@ -1,6 +1,6 @@
 # SecurityNinja
 
-An app that checks a Wordpress website for plugin versions, notifying the owner if updates are needed.
+An app that checks a WordPress website for plugin versions, notifying the owner if updates are needed.
 
 <details>
   <summary>Table of Contents</summary>
@@ -11,7 +11,7 @@ An app that checks a Wordpress website for plugin versions, notifying the owner 
         <li><a href="#google-sheet">Google Sheet</a></li>
         <li><a href="#google-service-account">Google Service Account</a></li>
         <li><a href="#mailgun">Mailgun</a></li>
-        <li><a href="#wordpress-setup">Wordpress Setup</a></li>
+        <li><a href="#wordpress-setup">WordPress Setup</a></li>
       </ul>
     <li><a href="#local">Local</a></li>
     <li><a href="#production">Production</a></li>
@@ -20,13 +20,13 @@ An app that checks a Wordpress website for plugin versions, notifying the owner 
 
 ## About The Project
 
-SecurityNinja is a python-based web scraping tool used to evaluate the security of a Wordpress website. The project parses through a Google Sheet containing entries that have a url, username, and key to scan the website. A list of plugins that need to be updated is generated and then sent to the corresponding email on the Google Sheet.
+SecurityNinja is a python-based web scraping tool used to evaluate the security of a WordPress website. The project parses through a Google Sheet containing entries that have a URL, username, and key to scan the website. A list of plugins that need to be updated is generated and then sent to the corresponding email on the Google Sheet.
 
 ## Requirements
 
 ### Google Sheet
    Create a Google Sheet with the following columns of data:
-   - website url
+   - website URL
    - username
    - application password
    - Email Address
@@ -34,7 +34,7 @@ SecurityNinja is a python-based web scraping tool used to evaluate the security 
 
    Variable(s):
    ```sh
-   #ID_of_google_sheet from the url: docs.google.com/spreadsheets/d/ID_of_google_sheet/edit...
+   #ID_of_google_sheet from the URL: docs.google.com/spreadsheets/d/ID_of_google_sheet/edit...
    SHEET_ID = ID_of_google_sheet
    
    #name_of_sheet_to_use from name of individual sheet
@@ -76,7 +76,7 @@ SecurityNinja is a python-based web scraping tool used to evaluate the security 
    MAILGUN_EMAIL = <mailgun@your_domain_name>
    MAILGUN_EMAIL_ENDPOINT = https://api.mailgun.net/v3/your_domain_name/messages
    ```
-### Wordpress Setup
+### WordPress Setup
 
 Log in to your WordPress site with an admin user account
 - Under the **Users** dropdown select **Profile**
