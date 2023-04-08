@@ -43,7 +43,7 @@ SecurityNinja is a python-based web scraping tool used to evaluate the security 
 ### Google Service Account
    Create a Google Cloud project on console.cloud.google.com
    - Select **IAM & Admin** from the navigation menu
-   - Select **Create a Project** and create a project
+   - Select **Create a Project** and follow the steps to create a project
    
    Create a Google service account on console.cloud.google.com
    - Select **IAM & Admin** from the navigation menu
