@@ -34,8 +34,11 @@ SecurityNinja is a python-based web scraping tool used to evaluate the security 
 
    Variable(s):
    ```sh
-   SHEET_ID = ID_of_google_sheet #from the url of the doc
-   SHEET_NAME = name_of_sheet_to_use #name of individual sheet
+   #ID_of_google_sheet from the url: docs.google.com/spreadsheets/d/ID_of_google_sheet/edit...
+   SHEET_ID = ID_of_google_sheet
+   
+   #name_of_sheet_to_use from name of individual sheet
+   SHEET_NAME = name_of_sheet_to_use
    ```
 ### Google Service Account
    Create a Google Cloud project on console.cloud.google.com
@@ -58,16 +61,20 @@ SecurityNinja is a python-based web scraping tool used to evaluate the security 
    
    Variable(s):
    ```sh
-   GOOGLE_APPLICATION_CREDENTIALS = credentials.json #path to credentials.json file
+   #filepath to credentials.json
+   GOOGLE_APPLICATION_CREDENTIALS = credentials.json
    ```
 ### Mailgun
    Create a free account at signup.mailgun.com
 
    Variable(s):
    ```sh
-   API_KEY = private_API_key #from your mailgun account, under your profile select API Keys
-   MAILGUN_EMAIL = <mailgun@your_domain_name> #your_domain_name from Domains under the Sending dropdown
-   MAILGUN_EMAIL_ENDPOINT = https://api.mailgun.net/v3/your_domain_name/messages #your_domain_name from Domains under the Sending dropdown
+   #private_API_key from your mailgun account, under your profile select API Keys
+   API_KEY = private_API_key
+   
+   #your_domain_name from Domains under the Sending dropdown
+   MAILGUN_EMAIL = <mailgun@your_domain_name>
+   MAILGUN_EMAIL_ENDPOINT = https://api.mailgun.net/v3/your_domain_name/messages
    ```
 ### Wordpress Setup
 
