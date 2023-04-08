@@ -26,7 +26,7 @@ SecurityNinja is a python-based web scraping tool used to evaluate the security 
 
 ### Google Sheet
    Create a Google Sheet with the following columns of data:
-   - website URL
+   - website url
    - username
    - application password
    - Email Address
