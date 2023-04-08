@@ -89,7 +89,7 @@ Log in to your WordPress site with an admin user account
 To get a local copy up and running follow these simple example steps:
 - Create necessary requirements by following the <a href="#requirements">Requirements</a>
 - Ensure ```credentials.json``` filepath is accessible
-- Run ```securityNinja.py```
+- Run ```securityNinja.py``` through your local environment
 
 ## Production
 
@@ -100,6 +100,6 @@ To get a production copy up and running follow these simple example steps:
 <a href="#google-service-account">Google Service Account</a>, and
 <a href="#mailgun">Mailgun</a> requirements securely in production environment
 - Ensure ```credentials.json``` filepath is accessible
-- Run ```securityNinja.py```
+- Run ```securityNinja.py``` through your production environment
 
 https://github.com/Global-Tech-Team/SecurityNinja
