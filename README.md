@@ -79,6 +79,8 @@ SecurityNinja is a python-based web scraping tool used to evaluate the security 
 ### WordPress Setup
 
 Log in to your WordPress site with an admin user account
+- On the dashboard, go to plugins
+- Download the plugin "Application passwords" by George Stephanis
 - Under the **Users** dropdown select **Profile**
 - Scroll down to **Application Passwords**
 - Enter a name in the **Add New Application Password** textbox and click **Add New**
