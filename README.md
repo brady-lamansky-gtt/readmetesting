@@ -66,6 +66,7 @@ SecurityNinja is a python-based web scraping tool used to evaluate the security 
    ```
 ### Mailgun
    Create a free account at signup.mailgun.com
+   When using a free developer account, it is necessary to verify any email you want to send to
 
    Variable(s):
    ```sh
@@ -80,7 +81,7 @@ SecurityNinja is a python-based web scraping tool used to evaluate the security 
 
 Log in to your WordPress site with an admin user account
 - On the dashboard, go to plugins
-- Download the plugin "Application passwords" by George Stephanis
+- Download the plugin **Application passwords by George Stephanis**
 - Under the **Users** dropdown select **Profile**
 - Scroll down to **Application Passwords**
 - Enter a name in the **Add New Application Password** textbox and click **Add New**
